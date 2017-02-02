@@ -16,6 +16,10 @@ public class ListNode {
         next = n;
     }
 
+    public void insertAfter(int item) {
+        next = new ListNode(item, next);
+    }
+
     @Override
     public String toString() {
         return "ListNode{" +
