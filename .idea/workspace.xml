@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba85b57e-ea70-412d-a00d-f748395ac3fa" name="Default" comment="Adds method for inserting item after &quot;this&quot;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/github/tonmoy71/SList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/github/tonmoy71/SListNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/tonmoy71/SList.java" afterPath="$PROJECT_DIR$/src/io/github/tonmoy71/SList.java" />
     </list>
     <ignored path="cs61B.iws" />
     <ignored path=".idea/workspace.xml" />

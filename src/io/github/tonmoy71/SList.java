@@ -17,6 +17,12 @@ public class SList {
         size++;
     }
 
+
+    public void deleteFront() {
+        head = head.next;
+        size--;
+    }
+
     @Override
     public String toString() {
         return "SList{" +
