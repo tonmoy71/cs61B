@@ -3,8 +3,23 @@ package io.github.tonmoy71;
 public class Main {
 
     public static void main(String[] args) {
-        ListNode l1 = new ListNode(7, new ListNode(0, new ListNode(6)));
-        l1.insertAfter(39);
-        System.out.print(l1);
+        SinglyLinkedList<String> list = new SinglyLinkedList<>();
+
+        list.addFirst("Pen");
+        list.addFirst("Notebook");
+
+        list.addLast("Monitor");
+        list.addLast("Keyboard");
+
+        System.out.println("First node: " + list.first());
+        System.out.println("Last node: " + list.last());
+
+        list.removeFirst();
+        list.removeFirst();
+        list.removeFirst();
+        list.removeFirst();
+
+
+
     }
 }
