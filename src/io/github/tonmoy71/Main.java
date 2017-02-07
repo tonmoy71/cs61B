@@ -11,13 +11,17 @@ public class Main {
         list.addLast("Monitor");
         list.addLast("Keyboard");
 
-        System.out.println("First node: " + list.first());
-        System.out.println("Last node: " + list.last());
+        list.removeFirst();
+        list.removeFirst();
+        list.removeFirst();
+        list.removeFirst();
 
-        list.removeFirst();
-        list.removeFirst();
-        list.removeFirst();
-        list.removeFirst();
+        CircularlyLinkedList<String> cList = new CircularlyLinkedList<>();
+        cList.addFirst("1");
+        cList.addFirst("2");
+        cList.addFirst("3");
+
+        cList.rotate();
 
 
 
