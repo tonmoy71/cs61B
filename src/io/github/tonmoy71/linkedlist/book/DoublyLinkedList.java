@@ -55,7 +55,7 @@ public class DoublyLinkedList<E> {
         size++;
     }
 
-    public E remove(Node<E> node) {
+    private E remove(Node<E> node) {
         Node<E> predecessor = node.getPrev();
         Node<E> successor = node.getNext();
         predecessor.setNext(successor);
@@ -77,6 +77,15 @@ public class DoublyLinkedList<E> {
             return null;
         }
         return remove(trailer.getPrev());
+    }
+
+    @Override
+    public String toString() {
+        return "DoublyLinkedList{" +
+                "header=" + header +
+                ", trailer=" + trailer +
+                ", size=" + size +
+                '}';
     }
 
     private static class Node<E> {
@@ -113,5 +122,7 @@ public class DoublyLinkedList<E> {
         public void setNext(Node<E> next) {
             this.next = next;
         }
+
+
     }
 }
