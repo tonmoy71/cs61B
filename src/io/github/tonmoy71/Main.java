@@ -1,5 +1,8 @@
 package io.github.tonmoy71;
 
+import io.github.tonmoy71.book.CircularlyLinkedList;
+import io.github.tonmoy71.book.SinglyLinkedList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -10,6 +13,8 @@ public class Main {
 
         list.addLast("Monitor");
         list.addLast("Keyboard");
+
+        System.out.println(list);
 
         list.removeFirst();
         list.removeFirst();
@@ -23,6 +28,7 @@ public class Main {
 
         cList.rotate();
 
+        System.out.println(cList);
 
 
     }

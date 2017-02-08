@@ -1,4 +1,4 @@
-package io.github.tonmoy71;
+package io.github.tonmoy71.book;
 
 /**
  * Created by Fahim on 2/6/2017.
@@ -102,6 +102,15 @@ public class SinglyLinkedList<E> {
         }
     }
 
+    @Override
+    public String toString() {
+        return "SinglyLinkedList{" +
+                "head=" + head +
+                ", tail=" + tail +
+                ", size=" + size +
+                '}';
+    }
+
 
     /* Nested Node class */
     private static class Node<E> {
@@ -123,6 +132,14 @@ public class SinglyLinkedList<E> {
 
         public void setNext(Node<E> next) {
             this.next = next;
+        }
+
+        @Override
+        public String toString() {
+            return "Node{" +
+                    "element=" + element +
+                    ", next=" + next +
+                    '}';
         }
     }
 

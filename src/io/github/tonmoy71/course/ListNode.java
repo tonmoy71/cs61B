@@ -1,4 +1,4 @@
-package io.github.tonmoy71;
+package io.github.tonmoy71.course;
 
 /**
  * Created by Fahim on 2/2/2017.

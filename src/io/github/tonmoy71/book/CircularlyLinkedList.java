@@ -1,4 +1,4 @@
-package io.github.tonmoy71;
+package io.github.tonmoy71.book;
 
 /**
  * Created by Fahim on 2/7/2017.
@@ -74,6 +74,14 @@ public class CircularlyLinkedList<E> {
         return tail.getElement();
     }
 
+    @Override
+    public String toString() {
+        return "CircularlyLinkedList{" +
+                "tail=" + tail +
+                ", size=" + size +
+                '}';
+    }
+
     /* Nested Node class */
     private static class Node<E> {
         private E element;
@@ -95,6 +103,8 @@ public class CircularlyLinkedList<E> {
         public void setNext(Node<E> next) {
             this.next = next;
         }
+
+
     }
 
 }

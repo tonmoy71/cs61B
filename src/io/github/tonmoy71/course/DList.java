@@ -1,4 +1,4 @@
-package io.github.tonmoy71;
+package io.github.tonmoy71.course;
 
 /**
  * Created by tonmoy on 05-Feb-17.
