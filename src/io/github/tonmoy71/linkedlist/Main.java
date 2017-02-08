@@ -1,7 +1,7 @@
-package io.github.tonmoy71;
+package io.github.tonmoy71.linkedlist;
 
-import io.github.tonmoy71.book.CircularlyLinkedList;
-import io.github.tonmoy71.book.SinglyLinkedList;
+import io.github.tonmoy71.linkedlist.book.CircularlyLinkedList;
+import io.github.tonmoy71.linkedlist.book.SinglyLinkedList;
 
 public class Main {
 

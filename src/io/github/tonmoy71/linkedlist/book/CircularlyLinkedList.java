@@ -1,4 +1,4 @@
-package io.github.tonmoy71.book;
+package io.github.tonmoy71.linkedlist.book;
 
 /**
  * Created by Fahim on 2/7/2017.

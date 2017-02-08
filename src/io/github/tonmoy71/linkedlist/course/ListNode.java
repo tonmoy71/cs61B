@@ -1,4 +1,4 @@
-package io.github.tonmoy71.course;
+package io.github.tonmoy71.linkedlist.course;
 
 /**
  * Created by Fahim on 2/2/2017.
