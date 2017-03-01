@@ -5,11 +5,14 @@ package io.github.tonmoy71.stack;
  */
 public class TestStack {
     public static void main(String[] args) {
-        Stack<Integer> stack = new ArrayStack<>(); // contents: ()
+        Stack<Integer> stack = new LinkedStack<>(); // contents: ()
         stack.push(5); // contents: (5)
         stack.push(3); // contents: (5, 3)
         System.out.println(stack.size()); // contents: (5, 3) outputs 2
+        System.out.println(stack.top()); // contents: (5, 3) outputs 2
         System.out.println(stack.pop()); // contents: (5) outputs 3
+        System.out.println(stack.top()); // contents: (5, 3) outputs 5
+
         System.out.println(stack.isEmpty()); // contents: (5) outputs false
         System.out.println(stack.pop()); // contents: () outputs 5
         System.out.println(stack.isEmpty()); // contents: () outputs true

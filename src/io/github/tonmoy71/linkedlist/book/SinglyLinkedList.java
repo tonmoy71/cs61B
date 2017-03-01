@@ -79,13 +79,17 @@ public class SinglyLinkedList<E> {
      *
      * @throws NullPointerException When the list contains only one item.
      */
-    public void removeFirst() {
+    public E removeFirst() {
         if (!isEmpty()) {
+            E value = head.getElement();
             head = head.getNext();
             size--;
             if (size == 0) {
                 tail = null;
             }
+            return value;
+        } else {
+            return null;
         }
     }
 
